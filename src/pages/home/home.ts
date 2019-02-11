@@ -54,7 +54,7 @@ export class HomePage {
 
     this.platform.ready().then((readySource) => {
 
-      if (SMS) SMS.sendSMS("+919884950017", "SMS from App to test", () => {
+      if (SMS) SMS.sendSMS("+919000000000", "SMS from App to test", () => {
         console.log("Sent");
         this.presentAlert("Alert",'SMS Sent');
       }, Error => {
